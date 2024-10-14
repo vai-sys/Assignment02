@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+
 
 const Dashboard = () => {
   return (
@@ -29,10 +28,15 @@ const Dashboard = () => {
       <div className="flex flex-col flex-grow bg-gray-100">
         <header className="bg-white shadow p-4 flex justify-between items-center">
           <h1 className="text-xl font-semibold">Welcome!</h1>
-          <button className="flex items-center justify-center w-32 h-12 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 ease-in-out">
-            <FontAwesomeIcon icon={faUser} className="mr-2" />
-            Profile
-          </button>
+          <button className="flex items-center justify-center w-12 h-12 bg-gray-400 rounded-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out">
+  <img
+    src="https://tse4.mm.bing.net/th?id=OIP.shbZSUEaJasMbATldeGfowHaHa&pid=Api&P=0&h=180" 
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
+
+</button>
+
         </header>
 
 

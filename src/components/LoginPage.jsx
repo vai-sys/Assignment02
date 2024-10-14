@@ -21,7 +21,7 @@ const LoginPage = () => {
     resetForm();
     setTimeout(() => {
         navigate('/dashboard');
-      }, 2000);
+      }, 1000);
 
   };
 
@@ -80,7 +80,7 @@ const LoginPage = () => {
             <div className="flex justify-between items-center">
               <Link to="#" className="text-sm text-blue-500 hover:underline">Forgot Password?</Link>
               <div className="flex justify-center items-center">
-              <p> Don't have an account?</p>
+              <p className="mr-5"> Don't have an account?</p>
               <Link to="/signup" className="text-sm text-blue-500 hover:underline">
                 Sign up
               </Link>
